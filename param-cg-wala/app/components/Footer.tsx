@@ -1,5 +1,5 @@
 import styles from './Footer.module.css';
-import { Facebook, Instagram, Twitter, MapPin, Phone, Mail } from 'lucide-react';
+import { Camera, Users, MessageCircle, MapPin, Phone, Mail } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -14,9 +14,9 @@ export default function Footer() {
             The ultimate luxury fashion destination. Elevate your style with our premium 4D shopping experience.
           </p>
           <div className={styles.socials}>
-            <a href="#" className={styles.socialLink}><Instagram size={20} /></a>
-            <a href="#" className={styles.socialLink}><Facebook size={20} /></a>
-            <a href="#" className={styles.socialLink}><Twitter size={20} /></a>
+            <a href="#" className={styles.socialLink}><Camera size={20} /></a>
+            <a href="#" className={styles.socialLink}><Users size={20} /></a>
+            <a href="#" className={styles.socialLink}><MessageCircle size={20} /></a>
           </div>
         </div>
 

@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Trending from './components/Trending';
+import Categories from './components/Categories';
 import Footer from './components/Footer';
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
+      <Categories />
       <Trending />
       <Footer />
     </main>

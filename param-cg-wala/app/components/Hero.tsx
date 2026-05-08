@@ -7,7 +7,7 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { Float, OrbitControls, Sphere, MeshDistortMaterial } from '@react-three/drei';
 
 function AbstractShape() {
-  const meshRef = useRef<any>();
+  const meshRef = useRef<any>(null);
   
   useFrame((state) => {
     if (meshRef.current) {
